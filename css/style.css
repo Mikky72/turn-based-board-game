@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+#board {
+  display: inline-block;
+  min-width: 620px;
+  min-height: 620px;
+  margin: 2rem;
+}
+
+.players-box {
+  float: left;
+  width: 300px;
+  margin-left: 20px;
+  padding: 2rem 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.player-info {
+  width: 100%;
+  border: 1px solid #000;
+  color: #333;
+  text-align: center;
+  padding: 2rem 0;
+  margin: 1rem 0;
+
+}
+
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  color: #333;
+
+}
+
+.square {
+  border: 1px solid grey;
+  display: block;
+  float: left;
+  width: 60px;
+  height: 60px;
+  background-image: url(../assets/Other/Misc/Grass.png);
+}
+
+
+.block {
+  background-size: 100%;
+  background-image: url(../assets/Other/Misc/Rock.png);
+  background: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #b2f145;
+}
+
+.player1 {
+  background-size: 150%;
+  background-image: url(../assets/char.png);
+  background: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #b2f145;
+}
+
+.player2 {
+  background-size: 150%;
+  background-image: url(../assets/char.png);
+  background: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.blue {
+  background-size: 100%;
+  background-image: url(../assets/donuts/pngs/blue_icing.png);
+  background: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #b2f145;
+}
+
+.choco {
+  background-size: 100%;
+  background-image: url(../assets/donuts/pngs/chocolate_icing.png);
+  background: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #b2f145;
+}
+
+.pink {
+  background-size: 100%;
+  background-image: url(../assets/donuts/pngs/pink_icing_sprinkles.png);
+  background: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #b2f145;
+}
+
+.white {
+  background-size: 100%;
+  background-image: url(../assets/donuts/pngs/white_icing_sprinkles.png);
+  background: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #b2f145;
+}
+
+
+.orange {
+  background-size: 100%;
+  background-image: url(../assets/donuts/pngs/orange_icing_chocolate_shaving.png);
+  background: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #b2f145;
+}
+
+
+.move1:hover {
+  background-size: 150%;
+  background-image: url(../assets/char.png);
+  background: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  background-color: #b2f145;
+
+}
+
+
+.move2:hover {
+  background-size: 150%;
+  background-image: url(../assets/char.png);
+  background: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}

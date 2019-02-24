@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Game!</title>
+</head>
+
+<body>
+    <div class="players-box">
+        <div id="player1" class="player-info">
+            <h1>Player 1</h1>
+            <p id="weapon1"></p>
+            <p id="life1"></p>
+            <img src="assets/char.png" alt="player image">
+            <img id="weaponImg"></img>
+        </div>
+
+        <div id="player2" class="player-info">
+            <h1>Player 2</h1>
+            <p id="weapon2"></p>
+            <p id="life2"></p>
+            <img src="assets/char.png" alt="player image">
+            <img id="weaponImg"></img>
+        </div>
+
+        <button id="attack" disabled onclick="game.players.attack();">Attack</button>
+        <button id="defend" disabled onclick="game.players.defend();">Defend</button>
+    </div>
+
+    <div id="board"></div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
