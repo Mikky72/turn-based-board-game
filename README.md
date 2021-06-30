@@ -1,7 +1,7 @@
 turn-based-board-game
 
 For Live Preview:
-https://mikky72.github.io/turn-based-board-game
+https://mo-othman.github.io/turn-based-board-game
 
 
 Start by randomly generating the game map. Each box can be either:
